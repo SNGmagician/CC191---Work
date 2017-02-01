@@ -1,3 +1,3 @@
-This is the README for Homework Assignment 2
+# HW-2   Report
 
-Testing GitHub Connection!
+This week started into learning MarkDown files
