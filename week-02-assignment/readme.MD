@@ -2,11 +2,11 @@
 
 This week started into learning MarkDown files & code. This seems very useful to train ourselves in thinking in coding terms. Within a language that is easy to understand.
 
-## I found that I encountered some difficulties with this assignment.
+I found that I encountered some difficulties with this assignment.
 * uploading to Github
 * using version-control  
 
-These challenges were minor, yet enlightening. I was learning throughout this assignment.
+## These challenges were minor, yet enlightening. I was learning throughout this assignment.
   1. learning how to make lists  
     1. and sub lists
     2. begin and end
