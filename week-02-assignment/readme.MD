@@ -22,6 +22,6 @@ git status
 git add
 git commit
 ```
-These are 3 commands to accomplish a task that is simplified in the UI.
+These are 3 commands to accomplish a task that is simplified into a few clicks in the UI. It is a interface I am more comfortable with. For now.
 
 ![Image of my editor](Screenshot.jpg)
