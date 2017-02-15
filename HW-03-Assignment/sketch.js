@@ -31,7 +31,7 @@ pop();
 // Cape
 push();
 fill(200,0,10);
-// quad(-100,-50,100,-50,200,100,150,200); <--- Failed quad cape
+// quad(-100,-50,100,-50,200,100,150,200); //<--- Failed quad cape
 arc(90, 45, 400,280, 0, PI+QUARTER_PI, CHORD);
 pop();
 
@@ -70,7 +70,7 @@ quad(80, 150, 20, 150, 30, 300, 70, 300);
 // body
 quad(-100, -50, 100, -50, 80, 150, -80, 150);
 
-push(); //Cape (shoulders)
+ push(); //Cape (shoulders)
 fill(200,0,10);
 quad(-100, -55, 100, -55, 100, -50, -100, -50);
 pop();
@@ -101,7 +101,10 @@ pop();
 rect(10,-100,30,4);
 rect(-40,-100,30,4);
 
-rect(-60,-90,120,1); //Dividing line for face-plate
+// rect(-60,-90,120,1); //Dividing line for face-plate
+line(-60,-110,0,-140);
+line(60,-110,0,-140);
+
 
 
 // center point marker
