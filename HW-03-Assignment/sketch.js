@@ -10,6 +10,10 @@ function setup() {
 function draw() {
 translate(400, 210);
 
+// shadow
+fill(90,10,0);
+ellipse(30,300,350,40);
+
 fill( 180, 180, 180);
 
 // sword
