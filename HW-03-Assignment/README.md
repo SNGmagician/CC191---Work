@@ -15,5 +15,5 @@ This seemed nice, however historically this bothered me. Fully armored knights u
 Pictured here is also a small blue dot I make to help me guide my objects into place.
 ![Cape 1st attempt](IMGs/Knight_Cape1.png)
 
-My final version uses a Arc style cape. This give a much more loose fabric look to the image. I also changed the face-plate to be a little more realistic.
+My final version uses a Arc style cape. This give a much more loose fabric look to the image. I also changed the face-plate, and added a shadow to be a little more realistic.
 ![Knight Final](IMGs/Knight_Final2.png)
