@@ -7,7 +7,7 @@ var yValue_2 = 100;   //random(0,600);
 var yValue_3 = 350;   //random(0,600);
 
 var Cape = 15;
-var CapeVariation = 0.01;
+var CapeVariation = 0.3;
 
 function setup() {
 createCanvas(800,600);
