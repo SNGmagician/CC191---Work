@@ -7,7 +7,7 @@ var yValue_2 = 100;   //random(0,600);
 var yValue_3 = 350;   //random(0,600);
 
 var Cape = 15;
-var CapeVariation = 50;
+var CapeVariation = 2;
 
 function setup() {
 createCanvas(800,600);
@@ -20,7 +20,7 @@ function draw() {
 background(16, 203, 255);
 frameRate(60);
 strokeWeight(0);
-var CapeFlap = noise(Cape) * height/75;
+var CapeFlap = noise(Cape) * height/50;
 
 //cloud 1
 ellipse(fly_1,yValue_1,150,125);
