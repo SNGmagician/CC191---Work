@@ -11,7 +11,7 @@ var CapeVariation = 0.3;
 
 function setup() {
 createCanvas(800,600);
-
+noCursor();
 }
 
 
