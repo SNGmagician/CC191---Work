@@ -68,7 +68,7 @@ pop();
 
 // Cape
 // rect(mouseX-35,mouseY+CapeFlap, 60, 10);
-quad(mouseX+25,mouseY-12,mouseX+25,mouseY-10,mouseX-35,mouseY-5-CapeFlap,mouseX-35,mouseY-30+CapeFlap);
+quad(mouseX+25,mouseY-12,mouseX+25,mouseY-8,mouseX-35,mouseY-5-CapeFlap,mouseX-35,mouseY-30+CapeFlap);
 
 pop();
 
