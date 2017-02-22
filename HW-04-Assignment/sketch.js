@@ -20,7 +20,7 @@ function draw() {
 background(16, 203, 255);
 frameRate(60);
 strokeWeight(0);
-var CapeFlap = noise(Cape) * height/50;
+var CapeFlap = noise(Cape) * 13;
 
 //cloud 1
 ellipse(fly_1,yValue_1,150,125);
