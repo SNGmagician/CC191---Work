@@ -28,7 +28,7 @@ background(0);
 
 function draw() {
 // translate(width/2,height/2);
-// background(0,5);
+background(0,10);
 
 dotVariableX = random(-5,5);
 dotVariableY = random(-5,5);
@@ -53,6 +53,10 @@ if (abs(dotSize.x) >= 20) {
   dotSize.x = 1;
 }
 
+if (abs(dotSize.y) >= 50) {
+dotSize.y = 5;
+
+}
 
 dotSize.x += dotVariableX;
 dotSize.y += dotVariableY;
