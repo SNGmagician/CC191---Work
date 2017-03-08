@@ -63,6 +63,7 @@ triangle(mouseX+15,mouseY+10,mouseX+15,mouseY,mouseX,mouseY+10);
 push();
 fill(255, 221, 0);
 triangle(mouseX+13,mouseY+10,mouseX+13,mouseY+3,mouseX+3,mouseY+10);
+rect(mouseX-20,mouseY-11, 3, 22);
 pop();
 
 
