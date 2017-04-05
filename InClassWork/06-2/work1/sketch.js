@@ -1,4 +1,5 @@
 var ball = {};
+ball.height = 40;
 ball.width = 40;
 ball.x = 10;
 ball.y = 10;
@@ -15,7 +16,8 @@ function setup() {
 }
 
 function draw() {
-
+// background(255,25);
+// noStroke();
 
   // Move the ball and Keep the ball on the screen.
   ball.x += ball.dx;
@@ -38,5 +40,5 @@ ball.b = map(ball.y, 0, height, 0, 255);
 fill(ball.r, ball.g, ball.b);
 
   // draw our ball
-  ellipse(ball.x, ball.y, ball.width, ball.width);
+  ellipse(ball.x, ball.y, ball.width, ball.height);
 }

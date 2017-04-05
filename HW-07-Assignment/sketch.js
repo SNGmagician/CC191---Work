@@ -30,14 +30,16 @@ if (frameCount % 2 === 0) {
 
             background(0,20,40);
 
+            drawLightning();
+/*
             // for (var i = 0; 3; i++){drawLightning}
             fill(255);
+            triangle(lightningPos+105,340,lightningPos+55,height,lightningPos+90,340);
             rect(lightningPos+70, 300, 10, 100);
             quad( lightningPos+105, 340, lightningPos+110, 330, lightningPos+65, 340, lightningPos+65, 355);
-            triangle(lightningPos+105,340,lightningPos+55,height,lightningPos+90,340);
 
         // rect(x,y,w,h)
-
+*/
 
         }
     } else {
@@ -46,14 +48,6 @@ if (frameCount % 2 === 0) {
     ellipse(button.x,button.y,button.width,button.height);
     rectMode(CENTER);
     noStroke();
-  push();
-    fill(255);
-    // text(button.text, button.x-45, button.y);
-    rect(width/8.5, height/9, 10, 30);
-    quad( 105, 55, 110, 45, 89, 60, 89, 65);
-    triangle(105,55,95,80,100,55);
-    ellipse(700,50,30,30);
-  pop();
 
 
     // clouds
@@ -75,6 +69,14 @@ ellipse(width, 250, width/1.25, 75);
 if (frameCount % 15 === 0) {
   ellipse(random(0,width),250, random(20,150),random(20,120));
   }
+  push();
+  fill(255);
+  // text(button.text, button.x-45, button.y);
+  rect(width/8.5, height/9, 10, 30);
+  quad( 105, 55, 110, 45, 89, 60, 89, 65);
+  triangle(105,55,95,80,100,55);
+  ellipse(700,50,30,30);
+  pop();
 
 
 if (frameCount % 20 === 0){
@@ -84,7 +86,9 @@ if (frameCount % 20 === 0){
 }
 
 function drawLightning(){
-
-
+  fill(255);
+  triangle(lightningPos+105,340,lightningPos+55,height,lightningPos+90,340);
+  rect(lightningPos+70, 300, 10, 100);
+  quad( lightningPos+105, 340, lightningPos+110, 330, lightningPos+65, 340, lightningPos+65, 355);
 
 }
