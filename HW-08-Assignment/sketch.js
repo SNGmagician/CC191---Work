@@ -14,16 +14,7 @@ function draw() {
   background(0, 138, 181);
   fill(34, 133, 0);
   rect(windowWidth/2,windowHeight,windowWidth,windowHeight/2);
-  rectMode(CENTER);
-  fill(107, 107, 107);
-  rect(windowWidth/1.98,windowHeight/1.5,windowWidth/8,windowHeight/4);
-  rect(windowWidth/1.75,windowHeight/1.85,windowWidth/24,windowHeight/16);
-  rect(windowWidth/2.25,windowHeight/1.85,windowWidth/24,windowHeight/16);
-  rect(windowWidth/1.98,windowHeight/1.85,windowWidth/24,windowHeight/16);
-  fill(0,0,0);
-  rect(windowWidth/1.98,windowHeight/1.38, windowWidth/16,windowHeight/8);
-  ellipse(windowWidth/1.979,windowHeight/1.5,windowWidth/16,windowHeight/16);
-
+  Castle();
 
 
   for (var i = 0; i < storm.length; i++) {
@@ -41,7 +32,17 @@ function draw() {
 }
 
 }
-
+function Castle(){
+  rectMode(CENTER);
+  fill(107, 107, 107);
+  rect(windowWidth/1.98,windowHeight/1.5,windowWidth/8,windowHeight/4);
+  rect(windowWidth/1.75,windowHeight/1.85,windowWidth/24,windowHeight/16);
+  rect(windowWidth/2.25,windowHeight/1.85,windowWidth/24,windowHeight/16);
+  rect(windowWidth/1.98,windowHeight/1.85,windowWidth/24,windowHeight/16);
+  fill(0,0,0);
+  rect(windowWidth/1.98,windowHeight/1.38, windowWidth/16,windowHeight/8);
+  ellipse(windowWidth/1.979,windowHeight/1.5,windowWidth/16,windowHeight/16);
+}
 
   /*
   Sheild(-25);
