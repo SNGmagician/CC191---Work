@@ -16,6 +16,7 @@ function draw() {
   rect(windowWidth/2,windowHeight,windowWidth,windowHeight/2);
   Castle();
 
+  Sheild(-50);
 
   for (var i = 0; i < storm.length; i++) {
     storm[i].display();
@@ -45,7 +46,6 @@ function Castle(){
 }
 
   /*
-  Sheild(-25);
   console.log(mouseX);
 
   translate(100,100);
@@ -67,18 +67,17 @@ function Arrow (init_x, init_y){
     quad(-2,-20,-2,-38,-10,-40,-9,-22);
   }
   */
-/*
+
 function Sheild (){
   push();
   angleMode(DEGREES);
   // rotate(ang);
   fill(113, 53, 4);
   rectMode(CENTER);
-  rect(mouseX,height/2,160,10);
+  rect(mouseX,height/1.5,160,10);
   fill(168, 168, 168);
   noStroke();
-  rect(mouseX,(height/2)+15,30,5);
-  rect(mouseX+15,(height/2)+12,6,12);
+  rect(mouseX,(height/1.5)+15,30,5);
+  rect(mouseX+15,(height/1.5)+12,6,12);
   pop();
 }
-*/
