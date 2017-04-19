@@ -12,7 +12,7 @@ var CapeVariation = 0.3;
 var song;
 
 function preload() {
-    song = loadSound('./Music/Superman.mp3');
+    song = loadSound('../Superman.mp3');
 }
 
 function setup() {
