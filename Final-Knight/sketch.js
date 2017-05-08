@@ -60,7 +60,6 @@ function draw() {
   for (var c = 0; c < maxCivs; c++) {
     Civs.push(new Citizen(c * 80, 416));
   }
-  // checking for zombie attack
 
   // slows Knight Down
   if (frameCount % 2 == 0) {
@@ -89,6 +88,8 @@ function draw() {
   }
   Kposy -= Kvely;
 
+
+// Game Over
   if ((maxHealth <= 0) || (maxCivs <= 0)) {
     fill(0);
     textSize(50);
@@ -115,7 +116,7 @@ function draw() {
       KanimationY = 46;
 }
 }
-  // Make & Control Knight
+// unused Idle for Knight
 // if (!keyIsDown(RIGHT_ARROW||LEFT_ARROW||UP_ARROW||SHIFT)) {
 //
 //   if (frameCount % 20 == 0) {
@@ -128,6 +129,7 @@ function draw() {
 //   }
 // }
 
+// Control Knight
   if (keyIsDown(RIGHT_ARROW)){
 
     Kvelx = 4;
@@ -140,8 +142,6 @@ function draw() {
   }
 }
  if (keyIsDown(LEFT_ARROW)){
-// scale(-1,1);
-// translate(60,0);
     Kvelx = -4;
   Kposx += Kvelx;
   if (frameCount % 10 == 0) {
@@ -192,10 +192,6 @@ function draw() {
   }
 }
 }
-  // if (KanimationX = 300) {
-  // Kanimation = 120;
-  // }
-
   image(Sprite, Kposx, Kposy, 180, 135, KanimationX, KanimationY, 60, 45);
 
   // spawn new zombies
@@ -204,6 +200,7 @@ function draw() {
       sZoms.push(new Zombie(random(width, width + 200), floor(random(1,2))));
     }
   }
+  // checking for zombie attack
   for (var i = 0; i < sZoms.length; i++) {
     sZoms[i].display();
     if (dist(Kposx, Kposy, sZoms[i].Zposx, sZoms[i].Zposy) < 30) {
