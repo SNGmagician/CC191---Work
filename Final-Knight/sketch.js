@@ -49,8 +49,14 @@ function setup() {
 function draw() {
   push();
   image(Bg, 0, 0, width, height) * scale(-1, 0);
-
   pop();
+
+  fill(22, 32, 17);
+  textSize(32);
+  text("ARROW KEYS TO MOVE", 100, 600, 500, 200);
+  text("SHIFT TO ATTACK", 100, 650, 400, 200);
+  text("Defend The Villagers!", 900, 600, 500, 400);
+
   // health
   for (var h = 0; h < maxHealth; h++) {
     Khealth.push(new Health(h * 50));
